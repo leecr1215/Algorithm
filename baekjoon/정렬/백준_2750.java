@@ -1,10 +1,8 @@
-package Á¤·Ä;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class ¹éÁØ_2750 {
+public class ë°±ì¤€_2750 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		ArrayList<Integer> array = new ArrayList();
