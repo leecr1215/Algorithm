@@ -1,6 +1,7 @@
 if __name__ == '__main__':
     N = int(input())
-    list = [] * N
+    list = []
+    
     for i in range(N):
         list.append(int(input()))
 
