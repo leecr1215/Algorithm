@@ -1,5 +1,6 @@
 from collections import Counter
 import sys
+# input()을 sys.stdin.readline().rstrip()으로 고쳐서 시간초과 해결
 
 if __name__ == '__main__':
     N = int(sys.stdin.readline().rstrip())
