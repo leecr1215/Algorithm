@@ -5,7 +5,7 @@ if __name__ == '__main__':
     list = []
     for i in range(N):
         temp = sys.stdin.readline().rstrip().split()
-        list.append((temp[0], temp[1]))
+        list.append((int(temp[0]), temp[1]))
 
     list.sort(key=lambda x:x[0])
    
