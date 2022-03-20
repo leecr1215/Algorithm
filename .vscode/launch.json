@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch 백준_11047",
+      "request": "launch",
+      "mainClass": "baekjoon.그리디알고리즘.백준_11047",
+      "projectName": "Algorithm_9ca5188a"
+    },
+    {
+      "type": "java",
       "name": "Launch 백준_18870",
       "request": "launch",
       "mainClass": "백준_18870",
