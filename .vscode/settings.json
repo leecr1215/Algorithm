@@ -1,3 +1,7 @@
 {
-  "java.project.sourcePaths": ["baekjoon/그리디알고리즘", "baekjoon/스택"]
+  "java.project.sourcePaths": [
+    "baekjoon/스택",
+    "baekjoon/그리디알고리즘",
+    "baekjoon/큐덱"
+  ]
 }
