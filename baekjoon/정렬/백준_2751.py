@@ -4,7 +4,7 @@ if __name__ == '__main__':
     
     for i in range(N):
         list.append(int(input()))
-
+    
     list.sort()
 
     for i in list:
