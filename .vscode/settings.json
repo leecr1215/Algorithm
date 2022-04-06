@@ -1,8 +1,9 @@
 {
   "java.project.sourcePaths": [
     "baekjoon/큐덱",
+    "baekjoon/이분탐색",
     "baekjoon/스택",
     "baekjoon/그리디알고리즘",
-    "baekjoon/이분탐색"
+    "baekjoon/기타"
   ]
 }
