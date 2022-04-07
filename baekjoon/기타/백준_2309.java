@@ -38,5 +38,6 @@ public class 백준_2309 {
 			}
 		}
 
+        sc.close();
     }
 }
