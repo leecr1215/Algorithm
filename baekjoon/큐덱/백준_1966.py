@@ -14,17 +14,14 @@ if __name__ == '__main__':
         
         while True:
             if arr[0] == maxi:
-                print("내가 최대임")
                 count += 1
                 arr.popleft() #인쇄
-                maxi = max(arr)
                 if sequence.popleft() == M:
                     break
+                maxi = max(arr)
             else:
                 arr.append(arr.popleft())
                 sequence.append(sequence.popleft())
         
         print(count)
         
-        
-
