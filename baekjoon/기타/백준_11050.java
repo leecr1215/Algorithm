@@ -12,8 +12,6 @@ public class 백준_11050 {
 
         System.out.println(factorial(N)/(factorial(N-K) * factorial(K)));
 
-        
-        
     }
     public static int factorial(int n){
         int result = 1;
