@@ -1,11 +1,12 @@
 {
   "java.project.sourcePaths": [
     "baekjoon/큐덱",
+    "baekjoon/정수론 및 조합론",
     "baekjoon/이분탐색",
     "baekjoon/스택",
     "baekjoon/동적계획법1",
     "baekjoon/기타",
     "baekjoon/그리디알고리즘",
-    "baekjoon/정수론 및 조합론"
+    "baekjoon/우선순위큐"
   ]
 }

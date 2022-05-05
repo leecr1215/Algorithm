@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch 백준_11279",
+      "request": "launch",
+      "mainClass": "백준_11279",
+      "projectName": "Algorithm_9ca5188a"
+    },
+    {
+      "type": "java",
+      "name": "Launch 백준_11051",
+      "request": "launch",
+      "mainClass": "백준_11051",
+      "projectName": "Algorithm_9ca5188a"
+    },
+    {
+      "type": "java",
+      "name": "Launch 백준_10844",
+      "request": "launch",
+      "mainClass": "백준_10844",
+      "projectName": "Algorithm_9ca5188a"
+    },
+    {
+      "type": "java",
       "name": "Launch 백준_16515",
       "request": "launch",
       "mainClass": "백준_16515",
