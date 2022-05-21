@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch 백준_10953",
+      "request": "launch",
+      "mainClass": "백준_10953",
+      "projectName": "Algorithm_9ca5188a"
+    },
+    {
+      "type": "java",
       "name": "Launch 백준_25083",
       "request": "launch",
       "mainClass": "백준_25083",
