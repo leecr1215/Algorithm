@@ -1,4 +1,3 @@
-const { reverse } = require("dns");
 var fs = require("fs");
 //var filePath = "/dev/stdin";
 var filePath = __dirname + "/input.txt";
