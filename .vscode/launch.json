@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch 카펫",
+      "request": "launch",
+      "mainClass": "카펫",
+      "projectName": "Algorithm_9ca5188a"
+    },
+    {
+      "type": "java",
       "name": "Launch 모의고사",
       "request": "launch",
       "mainClass": "모의고사",
