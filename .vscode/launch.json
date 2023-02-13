@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch 백준_15964_이상한_기호",
+      "request": "launch",
+      "mainClass": "백준_15964_이상한_기호",
+      "projectName": "Algorithm_9ca5188a"
+    },
+    {
+      "type": "java",
+      "name": "Launch 백준_10699",
+      "request": "launch",
+      "mainClass": "백준_10699",
+      "projectName": "Algorithm_9ca5188a"
+    },
+    {
+      "type": "java",
       "name": "Launch 카펫",
       "request": "launch",
       "mainClass": "카펫",

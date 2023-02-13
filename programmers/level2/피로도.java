@@ -1,8 +1,8 @@
 public class 피로도 {
     public static boolean[] visit;
     public static int answer = 0;
-    
-    public int solution(int k, int[][] dungeons) {
+
+    public static int solution(int k, int[][] dungeons) {
         // 던전 개수만큼 visit 설정
         visit = new boolean[dungeons.length];
         
