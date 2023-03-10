@@ -1,8 +1,8 @@
-package if¹®;
+package ifë¬¸;
 
 import java.util.Scanner;
 
-public class fourºÐ¸é_°í¸£±â {
+public class fourë¶„ë©´_ê³ ë¥´ê¸° {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
@@ -11,13 +11,13 @@ public class fourºÐ¸é_°í¸£±â {
 		
 		int quadrant=0;
 		
-		if(x >= 0 && y >= 0) {	// 1»çºÐ¸é
+		if(x >= 0 && y >= 0) {	// 1ï¿½ï¿½Ð¸ï¿½
 			quadrant = 1;
-		}else if(x >= 0 && y < 0) { // 4»çºÐ¸é
+		}else if(x >= 0 && y < 0) { // 4ï¿½ï¿½Ð¸ï¿½
 			quadrant = 4;
-		}else if(x < 0 && y >= 0) {	//2»çºÐ¸é
+		}else if(x < 0 && y >= 0) {	//2ï¿½ï¿½Ð¸ï¿½
 			quadrant = 2;
-		}else {	// 3»çºÐ¸é
+		}else {	// 3ï¿½ï¿½Ð¸ï¿½
 			quadrant = 3;
 		}
 		

@@ -1,3 +1,5 @@
+package 브루트포스;
+
 import java.util.Arrays;
 import java.util.Scanner;
 

@@ -1,9 +1,10 @@
-package Àç±Í;
+package ì¬ê·€;
+
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class º°Âï±â•û±â10 {
+public class ë³„ì°ê¸°ë¹¼ê¸°10 {
 	static char[][] arr;
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

@@ -1,16 +1,15 @@
-package ºê·çÆ®Æ÷½º;
-
+package ë¸Œë£¨íŠ¸í¬ìŠ¤;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class ºí·¢Àè {
+public class ë¸”ë™ì­ {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine() ," ");
 		
-		int N = Integer.parseInt(st.nextToken());	// Ä«µå °³¼ö
+		int N = Integer.parseInt(st.nextToken());	// Ä«ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		int M = Integer.parseInt(st.nextToken());
 		
 		st = new StringTokenizer(br.readLine(), " ");
@@ -22,7 +21,7 @@ public class ºí·¢Àè {
 		}
 			
 		
-		// ºê·çÆ® Æ÷½º
+		// ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½
 		int max = 0;
 		int temp = 0;
 		for(int i = 0; i < N; i++) {

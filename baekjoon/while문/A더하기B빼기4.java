@@ -1,8 +1,8 @@
-package while¹®;
+package whileë¬¸;
 
 import java.util.Scanner;
 
-public class A´õÇÏ±âB»©±â4 {
+public class Aë”í•˜ê¸°Bë¹¼ê¸°4 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 

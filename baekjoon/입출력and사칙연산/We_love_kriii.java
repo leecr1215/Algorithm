@@ -1,9 +1,10 @@
-package ÀÔÃâ·Âand»çÄ¢¿¬»ê;
+package ìž…ì¶œë ¥andì‚¬ì¹™ì—°ì‚°;
+
 
 public class We_love_kriii {
 	public static void main(String[] args) {
-			System.out.println("°­ÇÑÄ£±¸ ´ëÇÑÀ°±º");
-			System.out.println("°­ÇÑÄ£±¸ ´ëÇÑÀ°±º");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 	}
 
 }

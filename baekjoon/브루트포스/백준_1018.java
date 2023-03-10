@@ -1,8 +1,9 @@
-package ºê·çÆ®Æ÷½º;
+package ë¸Œë£¨íŠ¸í¬ìŠ¤;
+
 
 import java.util.Scanner;
 
-public class ¹éÁØ_1018 {
+public class ë°±ì¤€_1018 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
@@ -11,7 +12,7 @@ public class ¹éÁØ_1018 {
 
 		int[][] array = new int[50][50];
 
-		// ¹è¿­ ÀÔ·Â
+		// ï¿½è¿­ ï¿½Ô·ï¿½
 		for (int i = 0; i < N; i++) {
 			String s = sc.next();
 			for (int j = 0; j < M; j++) {
@@ -24,7 +25,7 @@ public class ¹éÁØ_1018 {
 			}
 		}
 		
-		// Ã¼½º Á¤´ä ÀÔ·Â
+		// Ã¼ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½
 		int[][] answer1 = new int[8][8];
 		int[][] answer2 = new int[8][8];
 
@@ -32,7 +33,7 @@ public class ¹éÁØ_1018 {
 		int[] pattern2 = { 2, 1, 2, 1, 2, 1, 2, 1 };
 
 		for (int i = 0; i < 8; i++) {
-			if (i % 2 == 0) { // Â¦¼ö¹øÂ° ÀÎµ¦½º
+			if (i % 2 == 0) { // Â¦ï¿½ï¿½ï¿½ï¿½Â° ï¿½Îµï¿½ï¿½ï¿½
 				answer1[i] = pattern1;
 				answer2[i] = pattern2;
 			} else {
@@ -41,7 +42,7 @@ public class ¹éÁØ_1018 {
 			}
 		}
 
-		// Ã¼½ºÆÇ Ã£±â
+		// Ã¼ï¿½ï¿½ï¿½ï¿½ Ã£ï¿½ï¿½
 		
 		int row = N-7;
 		int col = M-7;

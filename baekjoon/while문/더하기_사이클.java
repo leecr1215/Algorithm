@@ -1,7 +1,7 @@
-package while¹®;
+package whileë¬¸;
 
 import java.util.Scanner;
-public class ´õÇÏ±â_»çÀÌÅ¬ {
+public class ë”í•˜ê¸°_ì‚¬ì´í´ {
 	public static void main(String [] args) {
 		Scanner input = new Scanner(System.in);
 		
@@ -9,8 +9,8 @@ public class ´õÇÏ±â_»çÀÌÅ¬ {
 		int N = input.nextInt();	//26
 		int help = N;
 		while(true) {
-			int first = help/10;	//26À» 10À¸·Î ³ª´« ¸ò == 2
-			int second = help%10;	//26À» 10À¸·Î ³ª´« ³ª¸ÓÁö == 6	
+			int first = help/10;	//26ï¿½ï¿½ 10ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ == 2
+			int second = help%10;	//26ï¿½ï¿½ 10ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ == 6	
 			int sum = first + second;	//2+6==8
 			int newNum = second*10 + sum%10;	//60+8 == 68
 			help = newNum;

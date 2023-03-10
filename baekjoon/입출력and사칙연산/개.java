@@ -1,6 +1,6 @@
-package ÀÔÃâ·Âand»çÄ¢¿¬»ê;
+package ì…ì¶œë ¥andì‚¬ì¹™ì—°ì‚°;
 
-public class °³ {
+public class ê°œ {
 	public static void main(String[] args) {
 		System.out.println("|\\_/|");
 		System.out.println("|q p|   /}");

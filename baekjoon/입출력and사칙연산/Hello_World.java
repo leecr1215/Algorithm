@@ -1,4 +1,4 @@
-package ÀÔÃâ·Âand»çÄ¢¿¬»ê;
+package ì…ì¶œë ¥andì‚¬ì¹™ì—°ì‚°;
 
 public class Hello_World {
 	public static void main (String[] args) {

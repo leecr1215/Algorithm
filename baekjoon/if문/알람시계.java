@@ -1,11 +1,11 @@
-package if¹®;
+package ifë¬¸;
 
 import java.util.Scanner;
-public class ¾Ë¶÷½Ã°è {
+public class ì•ŒëžŒì‹œê³„ {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		
-		int H, M;//H½Ã MºÐ
+		int H, M;//Hï¿½ï¿½ Mï¿½ï¿½
 		H = input.nextInt();
 		M = input.nextInt();
 		

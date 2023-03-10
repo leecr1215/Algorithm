@@ -1,6 +1,5 @@
-package ÀÔÃâ·Âand»çÄ¢¿¬»ê;
-
-public class °í¾çÀÌ {
+package ì…ì¶œë ¥andì‚¬ì¹™ì—°ì‚°;
+public class ê³ ì–‘ì´ {
 	public static void main(String[] args) {
 		System.out.println("\\    /\\");
 		System.out.println(" )  ( ')");

@@ -1,14 +1,14 @@
-package ºê·çÆ®Æ÷½º;
+package ë¸Œë£¨íŠ¸í¬ìŠ¤;
 
 import java.util.Scanner;
 
-public class ºĞÇØÇÕ {
+public class ë¶„í•´í•© {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
 		int N = sc.nextInt();
 		
-		// N ÀÚ¸´¼ö?
+		// N ï¿½Ú¸ï¿½ï¿½ï¿½?
 		int num = 0;
 		long temp = N;
 		while(temp!=0) {
@@ -16,7 +16,7 @@ public class ºĞÇØÇÕ {
 			num++;
 		}
 		
-		// N - ÀÚ¸´¼ö*9 ~ N±îÁö
+		// N - ï¿½Ú¸ï¿½ï¿½ï¿½*9 ~ Nï¿½ï¿½ï¿½ï¿½
 		long start = N - num*9;
 		long result = 0;
 		

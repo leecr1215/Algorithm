@@ -1,8 +1,8 @@
-package if¹®;
+package ifë¬¸;
 
 import java.util.Scanner;
 
-public class µÎ¼öºñ±³ {
+public class ë‘ìˆ˜ë¹„êµ {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int A, B;

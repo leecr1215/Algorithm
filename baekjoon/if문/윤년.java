@@ -1,10 +1,10 @@
-package if¹®;
+package ifë¬¸;
 
 import java.util.Scanner;
-public class À±³â {
+public class ìœ¤ë…„ {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		int year;//¿¬µµ
+		int year;//ï¿½ï¿½ï¿½ï¿½
 		
 		year = input.nextInt();
 		
