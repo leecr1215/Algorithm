@@ -1,3 +1,4 @@
+package 재귀;
 import java.util.Scanner;
 
 public class 백준_17478_재귀함수가뭔가요 {

@@ -1,8 +1,8 @@
-package for¹®;
+package forë¬¸;
 
 import java.util.Scanner;
 
-public class º°Âï±â»©±â2 {
+public class ë³„ì°ê¸°ë¹¼ê¸°2 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 

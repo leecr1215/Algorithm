@@ -1,7 +1,7 @@
 package for문;
 
 import java.util.Scanner;
-public class ����⻩��1 {
+public class 별찍기빼기1 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		

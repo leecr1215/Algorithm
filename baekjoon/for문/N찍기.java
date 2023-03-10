@@ -1,7 +1,7 @@
-package for¹®;
+package forë¬¸;
 
 import java.util.Scanner;
-public class NÂï±â {
+public class Nì°ê¸° {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		

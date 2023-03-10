@@ -1,17 +1,3 @@
 {
-  "java.project.sourcePaths": [
-    "swea",
-    "baekjoon/큐덱",
-    "baekjoon/정수론 및 조합론",
-    "baekjoon/이분탐색",
-    "baekjoon/우선순위큐",
-    "baekjoon/스택",
-    "baekjoon/동적계획법1",
-    "baekjoon/누적합",
-    "baekjoon/기타",
-    "baekjoon/그리디알고리즘",
-    "programmers/level1",
-    "baekjoon",
-    "programmers"
-  ]
+  "java.project.sourcePaths": ["baekjoon", "programmers", "swea"]
 }

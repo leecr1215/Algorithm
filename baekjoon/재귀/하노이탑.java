@@ -1,18 +1,18 @@
-package Àç±Í;
+package ì¬ê·€;
 
 
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class ÇÏ³ëÀÌÅ¾ {
+public class í•˜ë…¸ì´íƒ‘ {
 	static StringBuilder sb = new StringBuilder();
 	public static void main(String[] args) {
 		/*
 		 * A B C
-		 * 1. n-1°³ÀÇ ¿ø¹İÀ» A¿¡¼­ ´Ù B·Î ¿Å±â±â
-		 * 2. A¿¡ ÀÖ´Â ¿ø¹İÀ» C·Î ¿Å±â±â
-		 * 3. B¿¡¼­ C·Î n-1°³ÀÇ ¿ø¹İ ¿Å±â±â
+		 * 1. n-1ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Aï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ Bï¿½ï¿½ ï¿½Å±ï¿½ï¿½
+		 * 2. Aï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Cï¿½ï¿½ ï¿½Å±ï¿½ï¿½
+		 * 3. Bï¿½ï¿½ï¿½ï¿½ Cï¿½ï¿½ n-1ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Å±ï¿½ï¿½
 		 * */
 		
 		Scanner sc = new Scanner(System.in);
@@ -27,13 +27,13 @@ public class ÇÏ³ëÀÌÅ¾ {
 
 	private static void hannoi(int n, int start, int middle, int end) {
 		
-		if(n==1) {	// ¿ø¹İ 1°³¸é °Á move
+		if(n==1) {	// ï¿½ï¿½ï¿½ï¿½ 1ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ move
 			sb.append(start + " " + end + "\n");
 		}
 		else {
-			hannoi(n-1, start, end, middle);	// start¿¡¼­ end¸¦ °ÅÃÄ middle·Î
-			sb.append(start + " " + end + "\n");	// start¿¡¼­ end·Î ÀÌµ¿
-			hannoi(n-1, middle, start, end);	// middle¿¡¼­ start¸¦ °ÅÃÄ end·Î 
+			hannoi(n-1, start, end, middle);	// startï¿½ï¿½ï¿½ï¿½ endï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ middleï¿½ï¿½
+			sb.append(start + " " + end + "\n");	// startï¿½ï¿½ï¿½ï¿½ endï¿½ï¿½ ï¿½Ìµï¿½
+			hannoi(n-1, middle, start, end);	// middleï¿½ï¿½ï¿½ï¿½ startï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ endï¿½ï¿½ 
 		}
 	}
 

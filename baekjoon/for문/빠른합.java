@@ -1,4 +1,4 @@
-package for¹®;
+package forë¬¸;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
-public class ºü¸¥ÇÕ {
+public class ë¹ ë¥¸í•© {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
@@ -22,7 +22,7 @@ public class ºü¸¥ÇÕ {
 
 			bw.write(A + B + "\n");
 		}
-		bw.flush();// ¹öÆÛ¿¡¼­ »«´Ù.
+		bw.flush();// ï¿½ï¿½ï¿½Û¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 		br.close();
 		bw.close();
 	}

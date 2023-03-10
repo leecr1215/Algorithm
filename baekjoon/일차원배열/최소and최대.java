@@ -1,8 +1,8 @@
-package ÀÏÂ÷¿ø¹è¿­;
+package ì¼ì°¨ì›ë°°ì—´;
 
 import java.util.Scanner;
 
-public class ÃÖ¼ÒandÃÖ´ë {
+public class ìµœì†ŒandìµœëŒ€ {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		

@@ -1,6 +1,7 @@
-package ÀÔÃâ·Âand»çÄ¢¿¬»ê;
+package ì…ì¶œë ¥andì‚¬ì¹™ì—°ì‚°;
 
-public class µî·Ï {
+
+public class ë“±ë¡ {
 	public static void main(String[] args) {
 		System.out.println("10");
 		System.out.println("leecr1215");
