@@ -1,3 +1,5 @@
+package level2;
+
 import java.util.HashSet;
 
 public class 소수찾기 {

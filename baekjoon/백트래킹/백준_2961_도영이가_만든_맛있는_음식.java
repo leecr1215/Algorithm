@@ -1,4 +1,8 @@
-public class 도영이가_만든_맛있는_음식 {
+package 백트래킹;
+
+import java.util.Scanner;
+
+public class 백준_2961_도영이가_만든_맛있는_음식 {
 	static int N; // 재료의 개수
 	static Ingredient[] ingredients;
 	static long min = 1000000000; // 신맛 - 쓴맛

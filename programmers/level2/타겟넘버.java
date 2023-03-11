@@ -1,3 +1,5 @@
+package level2;
+
 class 타겟넘버 {
     static int result;
     public int solution(int[] numbers, int target) {

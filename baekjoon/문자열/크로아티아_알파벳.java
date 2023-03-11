@@ -1,8 +1,8 @@
-package ¹®ÀÚ¿­;
+package ë¬¸ìì—´;
 
 import java.util.Scanner;
 
-public class Å©·Î¾ÆÆ¼¾Æ_¾ËÆÄºª {
+public class í¬ë¡œì•„í‹°ì•„_ì•ŒíŒŒë²³ {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String s = sc.next();
@@ -11,36 +11,36 @@ public class Å©·Î¾ÆÆ¼¾Æ_¾ËÆÄºª {
 		for(int i = 0; i < s.length(); i++) {
 			char c = s.charAt(i);
 			
-			if(c == 'c' && i < s.length() - 1) {			// ¸¸¾à ch °¡ c ¶ó¸é?
-				//¸¸¾à ch ´ÙÀ½ ¹®ÀÚ°¡ '=' ¶Ç´Â '-' ÀÌ¶ó¸é?
+			if(c == 'c' && i < s.length() - 1) {			// ï¿½ï¿½ï¿½ï¿½ ch ï¿½ï¿½ c ï¿½ï¿½ï¿½?
+				//ï¿½ï¿½ï¿½ï¿½ ch ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú°ï¿½ '=' ï¿½Ç´ï¿½ '-' ï¿½Ì¶ï¿½ï¿½?
 				if(s.charAt(i + 1) == '=' || s.charAt(i + 1) == '-') {		
-					// i+1 ±îÁö°¡ ÇÏ³ªÀÇ ¹®ÀÚÀÌ¹Ç·Î ´ÙÀ½ ¹®ÀÚ¸¦ °Ç³Ê ¶Ù±â À§ÇØ 1 Áõ°¡
+					// i+1 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ï³ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ì¹Ç·ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¸ï¿½ ï¿½Ç³ï¿½ ï¿½Ù±ï¿½ ï¿½ï¿½ï¿½ï¿½ 1 ï¿½ï¿½ï¿½ï¿½
 					i++;		
 				}
 				
 			}
 		    
 			else if(c == 'd' && i < s.length() - 1) {
-				if(s.charAt(i + 1) == '-') {	// d- ÀÏ °æ¿ì
+				if(s.charAt(i + 1) == '-') {	// d- ï¿½ï¿½ ï¿½ï¿½ï¿½
 						i++;
 					}
 				else if(s.charAt(i + 1) == 'z' && i < s.length() - 2) {
 					
-					if(s.charAt(i + 2) == '=') {	// dz= ÀÏ °æ¿ì
+					if(s.charAt(i + 2) == '=') {	// dz= ï¿½ï¿½ ï¿½ï¿½ï¿½
 						i += 2;
 					}
 				}
 			}
 		    
 			else if((c == 'l' || c == 'n') && i < s.length() - 1) {
-				if(s.charAt(i + 1) == 'j') {	// lj ¶Ç´Â nj ÀÏ °æ¿ì
+				if(s.charAt(i + 1) == 'j') {	// lj ï¿½Ç´ï¿½ nj ï¿½ï¿½ ï¿½ï¿½ï¿½
 					i++;
 				}
 			}
 		    
  
 			else if((c == 's' || c == 'z') && i < s.length() - 1) {
-				if(s.charAt(i + 1) == '=') {	// s= ¶Ç´Âz= ÀÏ °æ¿ì
+				if(s.charAt(i + 1) == '=') {	// s= ï¿½Ç´ï¿½z= ï¿½ï¿½ ï¿½ï¿½ï¿½
 					i++;
 				}
 			

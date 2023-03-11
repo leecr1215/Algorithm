@@ -9,5 +9,8 @@ public class 백준_24444_알고리즘수업_너비우선탐색1 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
         
+        N = Integer.parseInt(st.nextToken());
+        M = Integer.parseInt(st.nextToken());
+        
     }
 }

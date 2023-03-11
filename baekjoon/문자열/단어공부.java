@@ -1,9 +1,9 @@
-package ¹®ÀÚ¿­;
+package ë¬¸ìì—´;
 
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class ´Ü¾î°øºÎ {
+public class ë‹¨ì–´ê³µë¶€ {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		HashMap<Character, Integer> map = new HashMap<>();
@@ -30,7 +30,7 @@ public class ´Ü¾î°øºÎ {
 			}
 		}
 		
-		// °¡Àå ¸¹ÀÌ »ç¿ëµÈ ¾ËÆÄºª ¿©·¯ °³ Á¸ÀçÇÏ´ÂÁö È®ÀÎ
+		// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Äºï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ï¿½ï¿½ È®ï¿½ï¿½
 		int num = 0;
 		for(char key: map.keySet()) {
 			if(map.get(key)==maxValue) {

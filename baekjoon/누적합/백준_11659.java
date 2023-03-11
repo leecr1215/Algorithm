@@ -1,3 +1,5 @@
+package 누적합;
+
 import java.io.*;
 
 public class 백준_11659 {

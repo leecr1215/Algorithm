@@ -1,12 +1,12 @@
-package ¹®ÀÚ¿­;
+package ë¬¸ìì—´;
 
 import java.util.Scanner;
 
-public class ¾ËÆÄºªÃ£±â {
+public class ì•ŒíŒŒë²³ì°¾ê¸° {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String s = sc.next();
-		int[] arr= new int[26]; 	// ¾ËÆÄºª 26°³
+		int[] arr= new int[26]; 	// ï¿½ï¿½ï¿½Äºï¿½ 26ï¿½ï¿½
 		
 		for(int i = 0; i < arr.length; i++) {
 			arr[i] = -1;

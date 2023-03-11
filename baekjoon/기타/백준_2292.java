@@ -1,3 +1,5 @@
+package 기타;
+
 import java.util.Scanner;
 
 public class 백준_2292 {

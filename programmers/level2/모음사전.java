@@ -1,3 +1,8 @@
+package level2;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class 모음사전 {
     static String[] vowels = { "A", "E", "I", "O", "U" };
 	static List<String> list = new ArrayList<>();

@@ -1,3 +1,5 @@
+package level2;
+
 public class 피로도 {
     public static boolean[] visit;
     public static int answer = 0;

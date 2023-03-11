@@ -1,3 +1,5 @@
+package 동적계획법1;
+
 import java.io.*;
 
 public class 백준_2579 {

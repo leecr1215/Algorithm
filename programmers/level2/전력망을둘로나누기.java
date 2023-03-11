@@ -1,3 +1,8 @@
+package level2;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class 전력망을둘로나누기 {
     public static void main(String[] args) {
         int[][] wires = { { 1, 3 }, { 2, 3 }, { 3, 4 }, { 4, 5 }, { 4, 6 }, { 4, 7 }, { 7, 8 }, { 7, 9 } };

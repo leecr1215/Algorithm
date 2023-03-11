@@ -1,9 +1,9 @@
-package ���ڿ�;
+package 문자열;
 
 import java.util.Scanner;
 import java.util.Stack;
 
-public class �׷�ܾ�üĿ {
+public class 그룹단어체커 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();

@@ -1,3 +1,5 @@
+package 기타;
+
 import java.util.Scanner;
 import java.util.Stack;
 
