@@ -1,3 +1,5 @@
+package 기타;
+
 public class 백준_25083 {
     public static void main(String[] args) {
         System.out.println("         ,r\'\"7");

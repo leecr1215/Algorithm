@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "더맵게",
+      "request": "launch",
+      "mainClass": "level2.더맵게",
+      "projectName": "Algorithm_9ca5188a"
+    },
+    {
+      "type": "java",
       "name": "Launch 백준_15964_이상한_기호",
       "request": "launch",
       "mainClass": "백준_15964_이상한_기호",
