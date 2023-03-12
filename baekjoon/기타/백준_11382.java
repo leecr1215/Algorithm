@@ -1,3 +1,5 @@
+package 기타;
+
 import java.io.*;
 import java.util.StringTokenizer;
 

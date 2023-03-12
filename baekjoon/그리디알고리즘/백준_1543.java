@@ -1,3 +1,5 @@
+package 그리디알고리즘;
+
 import java.io.*;
 
 public class 백준_1543 {

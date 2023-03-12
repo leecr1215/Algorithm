@@ -1,3 +1,5 @@
+package 기타;
+
 import java.io.*;
 
 public class 백준_10953 {

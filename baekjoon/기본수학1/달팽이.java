@@ -1,11 +1,11 @@
-package ±âº»¼öÇĞ1;
+package ê¸°ë³¸ìˆ˜í•™1;
 
 import java.util.Scanner;
 
-public class ´ŞÆØÀÌ {
+public class ë‹¬íŒ½ì´ {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		// ´ŞÆØÀÌ°¡ V-Bm ¸¦  A-B¾¿ ¸çÄ¥?
+		// ï¿½ï¿½ï¿½ï¿½ï¿½Ì°ï¿½ V-Bm ï¿½ï¿½  A-Bï¿½ï¿½ ï¿½ï¿½Ä¥?
 		int A = sc.nextInt();
 		int B = sc.nextInt();
 		int V = sc.nextInt();

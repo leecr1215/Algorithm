@@ -1,3 +1,5 @@
+package 기타;
+
 import java.util.Scanner;
 
 public class 백준_15964_이상한_기호 {

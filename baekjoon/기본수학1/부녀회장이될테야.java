@@ -1,19 +1,20 @@
-package ±âº»¼öÇĞ1;
+package ê¸°ë³¸ìˆ˜í•™1;
+
 
 import java.util.Scanner;
 
-public class ºÎ³àÈ¸ÀåÀÌµÉÅ×¾ß {
+public class ë¶€ë…€íšŒì¥ì´ë í…Œì•¼ {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
 		int t = sc.nextInt();	
 		
 		for(int i = 0; i < t; i++) {
-			int k = sc.nextInt();	// kÃş
+			int k = sc.nextInt();	// kï¿½ï¿½
 			int n = sc.nextInt();	// nÈ£
 			
 			int result = Person(n,k);
-			//kÃş T(n) = k-1ÃşÀÇ T(1) + ...+ T(n)
+			//kï¿½ï¿½ T(n) = k-1ï¿½ï¿½ï¿½ï¿½ T(1) + ...+ T(n)
 			System.out.println(result);
 		}
 	}

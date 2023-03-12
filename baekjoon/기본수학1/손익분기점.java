@@ -1,8 +1,8 @@
-package ±âº»¼öÇÐ1;
+package ê¸°ë³¸ìˆ˜í•™1;
 
 import java.util.Scanner;
 
-public class ¼ÕÀÍºÐ±âÁ¡ {
+public class ì†ìµë¶„ê¸°ì  {
 	public static void main(String[] args) {
 
 	 Scanner sc = new Scanner(System.in);
@@ -12,7 +12,7 @@ public class ¼ÕÀÍºÐ±âÁ¡ {
 	 int B = sc.nextInt();
 	 int C = sc.nextInt();
 	 
-	 if(C > B) {	// C < B¸é ¹«Á¶°Ç ¼ÕÀÍºÐ±âÁ¡ ¾È»ý±è.
+	 if(C > B) {	// C < Bï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ÍºÐ±ï¿½ï¿½ï¿½ ï¿½È»ï¿½ï¿½ï¿½.
 		 int sub = C-B;
 		 
 		 int a = A / sub;

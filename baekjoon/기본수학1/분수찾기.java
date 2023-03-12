@@ -1,10 +1,10 @@
-package ±âº»¼öÇÐ1;
+package ê¸°ë³¸ìˆ˜í•™1;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class ºÐ¼öÃ£±â {
+public class ë¶„ìˆ˜ì°¾ê¸° {
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int X = Integer.parseInt(br.readLine());
@@ -21,8 +21,8 @@ public class ºÐ¼öÃ£±â {
 			result++;
 		}
 
-//		ºÐÀÚ: result-sum
-//		ºÐ¸ð: sum-1;
+//		ï¿½ï¿½ï¿½ï¿½: result-sum
+//		ï¿½Ð¸ï¿½: sum-1;
 
 		int a = sum-x;
 		if((result+1)%2==0) {	

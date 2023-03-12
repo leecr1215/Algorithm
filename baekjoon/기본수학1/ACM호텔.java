@@ -1,20 +1,19 @@
-package ±âº»¼öÇÐ1;
-
+package ê¸°ë³¸ìˆ˜í•™1;
 import java.util.Scanner;
 
-public class ACMÈ£ÅÚ {
+public class ACMí˜¸í…” {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
 		int num = sc.nextInt();
 		
 		for(int i = 0; i < num; i++) {
-			int h = sc.nextInt();	// È£ÅÚ Ãþ¼ö
-			int w = sc.nextInt();	// °¢ ÃþÀÇ ¹æ¼ö
-			int n = sc.nextInt();	// ¸î ¹øÂ° ¼Õ´Ô
+			int h = sc.nextInt();	// È£ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+			int w = sc.nextInt();	// ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
+			int n = sc.nextInt();	// ï¿½ï¿½ ï¿½ï¿½Â° ï¿½Õ´ï¿½
 			// 6 12 10
-			// 10 ³ª´©±â 6 -> ¸ò 1 ³ª¸ÓÁö 4
-			// ³ª¸ÓÁö * 100 + (¸ò+1) 
+			// 10 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 6 -> ï¿½ï¿½ 1 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 4
+			// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ * 100 + (ï¿½ï¿½+1) 
 
 			int remainder = (n % h)*100;
 			int quotient = (n / h) + 1;
@@ -26,8 +25,8 @@ public class ACMÈ£ÅÚ {
 			System.out.println(remainder+quotient);
 			//1
 			//6 12 12
-			// 12 ³ª´©±â 6 -> ¸ò 2 ³ª¸ÓÁö 0
-			// ´ä: 602
+			// 12 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 6 -> ï¿½ï¿½ 2 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 0
+			// ï¿½ï¿½: 602
 		}
 	}
 

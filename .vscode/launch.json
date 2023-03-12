@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "백준_24444_알고리즘수업_너비우선탐색1",
+      "request": "launch",
+      "mainClass": "그래프와순회.백준_24444_알고리즘수업_너비우선탐색1",
+      "projectName": "Algorithm_9ca5188a"
+    },
+    {
+      "type": "java",
+      "name": "백준_24444_알고리즘수업_너비우선탐색1",
+      "request": "launch",
+      "mainClass": "백준_24444_알고리즘수업_너비우선탐색1",
+      "projectName": "Algorithm_9ca5188a"
+    },
+    {
+      "type": "java",
       "name": "더맵게",
       "request": "launch",
       "mainClass": "level2.더맵게",
