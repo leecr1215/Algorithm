@@ -1,3 +1,5 @@
+package 정수론및조합론;
+
 import java.util.Scanner;
 public class 백준_2023_신기한소수 {
     static int[] array = new int[]{1,2,3,5,7,9}; // 1~9 중 가능성 있는 수

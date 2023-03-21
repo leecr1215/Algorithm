@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "백준_13241_최소공배수",
+      "request": "launch",
+      "mainClass": "정수론및조합론.백준_13241_최소공배수",
+      "projectName": "Algorithm_9ca5188a"
+    },
+    {
+      "type": "java",
+      "name": "백준_13241_최소공배수",
+      "request": "launch",
+      "mainClass": "백준_13241_최소공배수",
+      "projectName": "Algorithm_9ca5188a"
+    },
+    {
+      "type": "java",
       "name": "디스크컨트롤러",
       "request": "launch",
       "mainClass": "level3.디스크컨트롤러",
