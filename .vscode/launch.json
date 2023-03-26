@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "백준_25305_커트라인",
+      "request": "launch",
+      "mainClass": "정렬.백준_25305_커트라인",
+      "projectName": "Algorithm_9ca5188a"
+    },
+    {
+      "type": "java",
       "name": "백준_2587_대표값2",
       "request": "launch",
       "mainClass": "정렬.백준_2587_대표값2",
