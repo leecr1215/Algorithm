@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "백준_9251_LCS",
+      "request": "launch",
+      "mainClass": "동적계획법1.백준_9251_LCS",
+      "projectName": "Algorithm_9ca5188a"
+    },
+    {
+      "type": "java",
       "name": "가장먼노드",
       "request": "launch",
       "mainClass": "level3.가장먼노드",
