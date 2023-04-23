@@ -1,3 +1,4 @@
+// 블로그 완료
 /**
  * @param {string} word1
  * @param {string} word2
