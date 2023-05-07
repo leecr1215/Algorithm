@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "백준_15663_N과M9",
+      "request": "launch",
+      "mainClass": "백트래킹.백준_15663_N과M9",
+      "projectName": "Algorithm_9ca5188a"
+    },
+    {
+      "type": "java",
       "name": "백준_13549_숨바꼭질3",
       "request": "launch",
       "mainClass": "그래프와순회.백준_13549_숨바꼭질3",
