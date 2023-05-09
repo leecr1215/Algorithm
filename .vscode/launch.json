@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "그래프와순회.Main",
+      "projectName": "Algorithm_9ca5188a"
+    },
+    {
+      "type": "java",
+      "name": "백준_1916_최소비용구하기",
+      "request": "launch",
+      "mainClass": "그래프와순회.백준_1916_최소비용구하기",
+      "projectName": "Algorithm_9ca5188a"
+    },
+    {
+      "type": "java",
+      "name": "백준_11779_최소비용구하기2",
+      "request": "launch",
+      "mainClass": "그래프와순회.백준_11779_최소비용구하기2",
+      "projectName": "Algorithm_9ca5188a"
+    },
+    {
+      "type": "java",
       "name": "백준_15663_N과M9",
       "request": "launch",
       "mainClass": "백트래킹.백준_15663_N과M9",
