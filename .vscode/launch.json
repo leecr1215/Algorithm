@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "백준_2178_미로탐색",
+      "request": "launch",
+      "mainClass": "그래프와순회.백준_2178_미로탐색",
+      "projectName": "algorithm_ed18b462"
+    },
+    {
+      "type": "java",
       "name": "Main",
       "request": "launch",
       "mainClass": "그래프와순회.Main",
