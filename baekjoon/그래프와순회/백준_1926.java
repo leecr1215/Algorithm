@@ -8,6 +8,16 @@ import java.util.Queue;
 import java.util.StringTokenizer;
 
 public class 백준_1926 {
+
+    static class Node {
+        int x;
+        int y;
+
+        public Node(int x, int y) {
+            this.x = x;
+            this.y = y;
+        }
+    }
 	static int n;
 	static int m;
 	static boolean[][] visited;
@@ -32,7 +42,7 @@ public class 백준_1926 {
 				pictures[i][j] = Integer.parseInt(st.nextToken());
 			}
 		}
-		
+
 		// 이중포문으로 bfs 시작점 찾기
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < m; j++) {
@@ -64,22 +74,14 @@ public class 백준_1926 {
 				if (nx >= 0 && nx < n && ny >= 0 && ny < m && visited[nx][ny] == false && pictures[nx][ny] == 1) {
 					visited[nx][ny] = true;
 					queue.add(new Node(nx,ny));
-					
+
 				}
-				
+
 			}
 		}
-		
+
 		max = Math.max(max, count);
 	}
 }
 
-class Node {
-	int x;
-	int y;
 
-	public Node(int x, int y) {
-		this.x = x;
-		this.y = y;
-	}
-}
