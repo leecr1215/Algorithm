@@ -1,0 +1,4 @@
+SELECT CAR_ID, max(if(start_date <= '2022-10-16' and end_date >= '2022-10-16', '대여중', '대여 가능')) as AVAILABILITY
+FROM CAR_RENTAL_COMPANY_RENTAL_HISTORY
+GROUP BY CAR_ID
+ORDER BY CAR_ID DESC;
